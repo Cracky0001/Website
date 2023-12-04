@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/908333050558050324/1033166687576526949/Pentagram.png">
+<title>Your Website</title> <!-- Change the title of your website here -->
+
+<!-- Social Media Embed URLs (Discord, etc.) -->
+<meta property="og:url" content="YOUR_WEBSITE_URL_HERE">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Your Website">
+<meta property="og:description" content="Welcome to my page">
+<meta property="og:image" content="YOUR_IMAGE_URL_HERE">
+
+<!-- Add your own JavaScript files here -->
+<script src="scripts/your_script.js"></script>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  #particles {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  #background-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+  }
+  #background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('YOUR_BACKGROUND_IMAGE_URL_HERE') center/cover no-repeat; /* Change the background image here */
+    filter: brightness(30%);
+  }
+  .container {
+    top: 40px;
+    position: relative;
+    z-index: 1;
+    width: 400px; /* Change the width of your container here */
+    height: auto; /* Change the hight of your container here */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.534); /* Change the background color here */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Change the shadow here */
+    color: #ffffff; /* Change the text color here */
+  }
+  .link {
+    text-align: center;
+    background-color: #1f1f1f; /* Change the background color for links here */
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Change the shadow for links here */
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  .link:hover {
+    background-color: #3a3a3a; /* Change the color on hover here */
+    transform: scale(1.05);
+  }
+  .link a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.2s;
+  }
+  
+  .social-icon img {
+    width: 40px; /* Adjust the width to your preference */
+    height: 40px; /* Adjust the height to your preference */
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  #header {
+    text-align: center;
+    
+  }
+  #header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Scales the image uniformly */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Light shadow */
+    margin-top: 2px;
+  }
+</style>
+
+</head>
+<body>
+  <div id="background-container">
+    <div id="background-image"></div>
+  </div>
+  <div id="particles"></div>
+  <div class="container">
+
+    <div id="header" class="header">
+      <img src="YOUR_ICON.png" oncontextmenu="return false;"> <!-- Add a Tab Icon --!>
+    </div>
+
+    <!-- Add your own links here and customize them -->
+    <div class="link">
+      <a href="YOUR_LINK_URL_HERE" target="_blank">Your Link 1</a>
+    </div>
+    <div class="link">
+      <a href="YOUR_LINK_URL_HERE" target="_blank">Your Link 2</a>
+    </div>
+    <!-- Add more links here -->
+
+    <!-- Add your own social media icons and links here -->
+    <div class="social-icons">
+      <a href="YOUR_INSTAGRAM_LINK_HERE" class="social-icon" target="_blank">
+        <img src="https://cdn.discordapp.com/attachments/908333050558050324/1033166687576526949/Pentagram.png" alt="Instagram">
+      </a>
+      <!-- Add more social media icons and links here -->
+    </div>
+    
+  </div>
+    
+  </div>
+  <!-- Add your own JavaScript files for particle animation here -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- You can add more scripts here -->
+</body>
+</html>
