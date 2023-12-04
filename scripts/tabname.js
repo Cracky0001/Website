@@ -1,8 +1,9 @@
 const textParts = [
-    "† Cracky †",
-    "† γʞɔɒɿƆ †",
+    "† YourName †",
+    "† emaNruoY †",
     "† Your Welcome †",
     "♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥♥"
+    // You cann add more!
 ];
 
 let currentPartIndex = 0;
