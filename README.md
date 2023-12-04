@@ -36,6 +36,7 @@ You can customize various aspects of the website:
 - Modify the links in the `<div class="link">` sections to point to your own webpages.
 - Replace the social media icons and links with your own by updating the URLs in the `<a>` tags.
 - Adjust the fonts, colors, and styles in the CSS to match your branding.
+- The particlesystem can you find [HERE](https://vincentgarreau.com/particles.js/)
 
 ## License
 
