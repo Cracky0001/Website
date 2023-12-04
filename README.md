@@ -25,7 +25,7 @@ To get started with your own website using this template, follow these steps:
 
 1. Clone this repository to your local machine or download the ZIP file.
 2. Customize the `index.html` file with your own content, links, and images.
-3. Update the styles in the `<style>` section of the `index.html` file to match your preferences.
+3. Update the styles in the `styles.css` file to match your preferences.
 4. Add your own JavaScript files for any additional functionality you want.
 
 ## Customization
