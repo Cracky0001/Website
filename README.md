@@ -1,6 +1,6 @@
-# My Awesome Website
+# My Website
 
-Welcome to my awesome website! This is a simple template to help you get started with creating your own personalized webpage. You can customize the content, styles, and links to make it your own.
+Welcome to my website! This is a simple template to help you get started with creating your own personalized webpage. You can customize the content, styles, and links to make it your own.
 
 ## Table of Contents
 
